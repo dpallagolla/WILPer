@@ -1,0 +1,5 @@
+cron:
+- description: daily update of time table
+  url: /updateTimeTable
+  target: beta
+  schedule: every 6 hours
